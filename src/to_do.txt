@@ -1,0 +1,14 @@
+
+
+AIM : To create a model-architecture that learns to identify words from word-images.
+
+Things to do : 
+1. The main databases that I will be using is IAM Offine + CVL Database. (Initially)
+
+_____________________________________________________________________________________________
+Task one :
+1. To clean and preprocess the images and save them in some directory in google-drive.
+2. To do this I will have to think about some data-pipeline so that I can add the data at any-time possible.
+I am thinking of like this:
+Create a folder /input-images and dump i.pkl file in this folder and save the corresponding ground truth 
+in a train.csv that contains i.pkl, {Ground_Truth} 
